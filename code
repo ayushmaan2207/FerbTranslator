@@ -1,3 +1,4 @@
+# encoder
 def encrypt(text):
     text_list = text.split(" ")
     encrypted_text = ""
@@ -9,7 +10,8 @@ def encrypt(text):
         else:
             encrypted_text = encrypted_text + word + " "
     return encrypted_text
-
+    
+# decoder
 def decrypt(text):
     text_list = text.split(" ")
     decrypted_text = ""
@@ -25,3 +27,4 @@ def decrypt(text):
             decrypted_text = decrypted_text + word + " "
     
     return decrypted_text
+

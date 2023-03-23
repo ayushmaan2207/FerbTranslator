@@ -8,7 +8,6 @@ def encrypt(text):
             encrypted_text = encrypted_text + word[1:] + word[0] + "erb "
         else:
             encrypted_text = encrypted_text + word + " "
-    
     return encrypted_text
 
 def decrypt(text):

@@ -1,0 +1,12 @@
+def encrypt(text):
+    text_list = text.split(" ")
+    encrypted_text = ""
+
+    for word in text_list:
+        if len(word) > 3:
+            word_ending = word[1:]
+            encrypted_text = encrypted_text + word[1:] + word[0] + "erb "
+        else:
+            encrypted_text = encrypted_text + word + " "
+    
+    return encrypted_text

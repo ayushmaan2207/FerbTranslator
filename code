@@ -29,8 +29,7 @@ def decrypt(text):
     return decrypted_text
 
 # a = encrypt(["Hello", "Hi", "supboi"])
-a = encrypt("Hello how have you been bro whats up?")
+a = encrypt("Hello how have you been bro ?")
 print(a)
-print("hello world")
 
 print(decrypt(a))

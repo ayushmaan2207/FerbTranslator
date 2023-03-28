@@ -12,6 +12,7 @@ def encrypt(text):
     return encrypted_text
     
 #decoder
+
 def decrypt(text):
     text_list = text.split(" ")
     decrypted_text = ""

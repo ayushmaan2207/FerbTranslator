@@ -1,6 +1,7 @@
 #encoder
 def encrypt(text):
     text_list = text.split(" ")
+    
     encrypted_text = ""
 
     for word in text_list:
